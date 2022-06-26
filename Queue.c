@@ -23,6 +23,7 @@ void QueueDestroy(Queue* pq)
 	}
 
 	pq->head = pq->tail = NULL;
+
 }
 
 void QueuePush(Queue* pq, QDataType x)

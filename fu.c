@@ -15,6 +15,7 @@ void test1()
 	QueuePush(&q, 4);
 	printf("%d\n",QueueSize(&q));
 
+	/*QueuePop(&q);
 	QueuePop(&q);
 	QueuePop(&q);
 	QueuePop(&q);
@@ -54,7 +55,7 @@ void test2()
 
 void test3()
 {
-
+	
 }
 
 int main()
